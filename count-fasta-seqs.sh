@@ -1,5 +1,6 @@
 #!/bin/sh
 
+
 # How this script should behave:
 #
 # INPUT:   Paths to one or more fasta sequence files
@@ -63,7 +64,13 @@
 # files that were 'given to' this script. The variable "$@" will be very useful
 # for this. Let's take a look at what it gives us:
 
+for filepath in "$@"
+do
+wc -l "$@" 
 echo "$@"
+done 
+
+#echo "$@"
 
 # How are you going to work with each file path?
 # HINT: for loop (remember "for do done"?)
@@ -94,6 +101,6 @@ echo "$@"
 #
 # ADD YOUR CODE BELOW:
 
-INPUTS
-/home/aubcls65/au-bootcamp-git-intro/example-seqs1.fasta
-/home/aubcls65/au-bootcamp-git-intro/example-seqs2.fasta
+#INPUTS
+#/home/aubcls65/au-bootcamp-git-intro/example-seqs1.fasta
+#/home/aubcls65/au-bootcamp-git-intro/example-seqs2.fasta
