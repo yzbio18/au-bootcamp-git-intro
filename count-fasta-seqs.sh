@@ -94,3 +94,6 @@ echo "$@"
 #
 # ADD YOUR CODE BELOW:
 
+INPUTS
+/home/aubcls65/au-bootcamp-git-intro/example-seqs1.fasta
+/home/aubcls65/au-bootcamp-git-intro/example-seqs2.fasta
