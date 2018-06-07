@@ -66,7 +66,9 @@
 
 for filepath in "$@"
 do
-wc -l "$@" 
+grep \> "$@" > Reads
+wc -l Reads > numsequences
+printf numsequences -1
 echo "$@"
 done 
 
